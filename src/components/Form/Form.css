@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-bg-color);
+  border-radius: 0.2em;
+  overflow: hidden;
+}
+.form--input {
+  display: flex;
+}
+.form--input input::placeholder {
+  color: var(--primary-text-color);
+}
+.form--input input {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 0.2em 0 0 0;
+  font-size: 1.25em;
+  color: var(--primary-text-color);
+  padding: 0.5em 1em;
+  flex: 1 0 auto;
+}
+
+.form--input button {
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  font-size: 1.25em;
+  padding: 1em;
+}
+
+.form--answer {
+  font-size: 1.25em;
+  padding: 1em;
+  word-wrap: break-word;
+}
